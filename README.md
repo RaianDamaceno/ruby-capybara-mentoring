@@ -31,6 +31,11 @@ Navigate to the project
 Execute the following command to run the tests:
 ```bundle exec rspec spec/my_tests.rb```
 
+## In Windows
+
+1. Install https://cmder.app/ Full
+2. Install Ruby https://rubyinstaller.org/downloads/ v3.2.2-1
+
 ## Commands Comparison
 | Selenium Java Commands | Cypress Commands | Capybara Ruby Commands |
 |-----------------------|-----------------|-----------------------|
