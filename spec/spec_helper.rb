@@ -13,6 +13,13 @@
 # it.
 #
 # See https://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
+require 'capybara/rspec'
+
+Capybara.configure do |config|
+  config.default_driver = :selenium_chrome
+  config.app_host = 'http://www.example.com' # Altere para a URL do seu aplicativo web
+end
+
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
