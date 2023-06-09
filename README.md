@@ -36,6 +36,19 @@ Execute the following command to run the tests:
 1. Install https://cmder.app/ Full
 2. Install Ruby https://rubyinstaller.org/downloads/ v3.2.2-1
 
+## Syntax Comparison
+
+| Syntax Differences     | Java             | Python           | Ruby               |
+| ---------------------- | ---------------- | ---------------- | ------------------ |
+| Variable Declaration   | `int num = 10;`  | `num = 10`       | `num = 10`         |
+| Comments               | `// Single-line` | `# Single-line`  | `# Single-line`    |
+| Conditional Statements | `if (condition)` | `if condition:`  | `if condition`     |
+| Loops                  | `for (int i = 0;` | `for i in range(`| `for i in 0..`     |
+| Function Declaration   | `public int add(` | `def add(`       | `def add(`         |
+| Class Declaration      | `public class`   | `class`          | `class`            |
+| List/Array Declaration | `int[] numbers =`| `numbers = [`    | `numbers = [`      |
+| Object Creation        | `MyClass obj =`  | `obj = MyClass(` | `obj = MyClass.new`|
+
 ## Commands Comparison
 | Selenium Java Commands | Cypress Commands | Capybara Ruby Commands |
 |-----------------------|-----------------|-----------------------|
