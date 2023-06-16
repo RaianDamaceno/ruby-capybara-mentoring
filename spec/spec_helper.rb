@@ -17,7 +17,7 @@ require 'capybara/rspec'
 
 Capybara.configure do |config|
   config.default_driver = :selenium_chrome
-  config.app_host = 'http://www.example.com' # Altere para a URL do seu aplicativo web
+  config.app_host = 'https://example.cypress.io/' # Altere para a URL do seu aplicativo web
 end
 
 RSpec.configure do |config|
